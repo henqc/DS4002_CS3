@@ -39,10 +39,11 @@ Our data will be taken from The Global Health Observatory under the World Health
 
 ## Instructions for Reproducing
 - Download data from WHO [1]
-- Unzip file and clean data taken from SA_0000001400 and SA_0000001688.csv, keeping columns relating to Time Dimension in both the US and EU countries
-- Export CSV file and upload to github
-- In a Google Colab notebook, append ......
-- Use ARIMA statistical model in Python to find trends and predictions of the data
+- Unzip file to get SA_0000001400.csv and SA_0000001688.csv
+- Export those CSV files and upload to github
+- In a Google Colab notebook, clean data keeping columns related to Time Dimension and SpatialDimensionCode
+- Filter SpatialDimensionCodes keeping the US, UK, Germany, and Japan
+- Use ARIMA statistical model in Python to find trends and predictions of the data based on those countries 
     - This can be done by using predict() function from installed packages 
 - Analyze trends to see if there is a significance change over time 
 

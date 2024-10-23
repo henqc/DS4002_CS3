@@ -38,7 +38,7 @@ Our data will be taken from The Global Health Observatory under the World Health
 
 ## Instructions for Reproducing
 - Download data from WHO [1]
-- Unzip file to get SA_0000001400.csv and SA_0000001688.csv
+- Unzip file to get SA_0000001400.csv
 - Export those CSV files and upload to github
 - In a Google Colab notebook, clean data keeping columns related to Time Dimension, SpatialDimensionCode, and Alcohol Type
 - Filter SpatialDimensionCodes keeping the US, UK, Germany, and Japan

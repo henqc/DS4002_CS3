@@ -15,6 +15,7 @@ Our data will be taken from The Global Health Observatory under the World Health
         - datetime
         - matplotlib
         - ARIMA
+        - SARIMAX
         - mean_squared_error
         - plot_acf
         - plot_pacf

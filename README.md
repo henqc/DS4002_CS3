@@ -28,10 +28,7 @@ Our data will be taken from The Global Health Observatory under the World Health
 - SCRIPTS/
     - Draft1.ipynb
 - OUTPUT/
-    - Alcohol Consumption Forecast for USA.png
-    - Alcohol Consumption Per Country.png
-    - Consumption Value with Forecast.png
-    - Predictions and Consumption Values from 2016-2020.png
+    - RESULTS.pdf
 - README.md
 - LISCENSE.md
 

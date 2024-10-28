@@ -43,7 +43,7 @@ Our data will be taken from The Global Health Observatory under the World Health
 - In a Google Colab notebook, clean data keeping columns related to Time Dimension, SpatialDimensionCode1, and Alcohol Type
 - Filter SpatialDimensionCodes keeping the US, UK, Germany, and Japan
 - Use ARIMA statistical model in Python to find trends and predictions of the data based on those countries and further analyze whether alcohol types spiked in those countries at that time 
-    - This can be done by using predict() function from installed packages [4]
+    - This can be done by using predict() function from installed packages [4][5]
 - Analyze trends to see if there is a significance change over time 
 
 ## References:
@@ -54,4 +54,6 @@ Our data will be taken from The Global Health Observatory under the World Health
 [3] E. D. Nesoff, S. Gutkind, S. Sirota, A. L. McKowen, and C. B. Veldhuis, “Mental health and economic stressors associated with high-risk drinking and increased alcohol consumption early in the COVID-19 pandemic in the United States,” Preventive Medicine, vol. 153, p. 106854, Dec. 2021, doi: https://doi.org/10.1016/j.ypmed.2021.106854
 
 [4]A. Bajaj, “ARIMA & SARIMA: Real-World Time Series Forecasting,” neptune.ai, May 11, 2021. https://neptune.ai/blog/arima-sarima-real-world-time-series-forecasting-guide
+‌
+[5]GeeksforGeeks, “SARIMA (Seasonal Autoregressive Integrated Moving Average),” GeeksforGeeks, Nov. 17, 2023. https://www.geeksforgeeks.org/sarima-seasonal-autoregressive-integrated-moving-average/
 ‌

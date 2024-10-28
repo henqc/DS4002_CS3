@@ -39,9 +39,12 @@ Our data will be taken from The Global Health Observatory under the World Health
 - Unzip file to get SA_0000001400.csv
 - Export those CSV files and upload to github
 - In a Google Colab notebook, clean data keeping columns related to Time Dimension, SpatialDimensionCode1, and Alcohol Type
-- Filter SpatialDimensionCodes keeping the US, UK, Germany, and Japan
+- Filter SpatialDimensionCode1 for the US, UK, Germany, and Japan for country analysis
+- Filter SpatialDimensionCode1 for the Beer, Spirits, and Wine for alcohol type analysis
 - Use SARIMAX statistical model in Python to find trends and predictions of the data based on those countries and further analyze whether alcohol types spiked in those countries at that time 
     - This can be done by using the SARIMAX model function from installed packages [4][5]
+    - After creating a forecast for the data, we calculated the difference between the predicted value at 2008 and the actual value at 2008
+    - This number determined whether there was a spike in alcohol consumption during this time
 - Analyze trends to see if there is a significance change over time 
 
 ## References:

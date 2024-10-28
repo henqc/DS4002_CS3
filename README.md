@@ -40,8 +40,8 @@ Our data will be taken from The Global Health Observatory under the World Health
 - Export those CSV files and upload to github
 - In a Google Colab notebook, clean data keeping columns related to Time Dimension, SpatialDimensionCode1, and Alcohol Type
 - Filter SpatialDimensionCodes keeping the US, UK, Germany, and Japan
-- Use ARIMA statistical model in Python to find trends and predictions of the data based on those countries and further analyze whether alcohol types spiked in those countries at that time 
-    - This can be done by using predict() function from installed packages [4][5]
+- Use SARIMAX statistical model in Python to find trends and predictions of the data based on those countries and further analyze whether alcohol types spiked in those countries at that time 
+    - This can be done by using the SARIMAX model function from installed packages [4][5]
 - Analyze trends to see if there is a significance change over time 
 
 ## References:

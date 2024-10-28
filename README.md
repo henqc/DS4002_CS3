@@ -27,7 +27,7 @@ Our data will be taken from The Global Health Observatory under the World Health
 - DATA/
     - SA_0000001400.csv
 - SCRIPTS/
-    - Draft1.ipynb
+    - Scripts.ipynb
 - OUTPUT/
     - RESULTS.pdf
 - README.md

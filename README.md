@@ -1,5 +1,4 @@
 ## Analysis of the impact that the Financial Crisis of 2008 had on Global Alcohol Consumption
-### Allison Kerper, Elijah Kim, and Henry Chen
 Hypothesis: We expect to see an increase of at least 20% in alcohol consumption following the financial crisis of 2008. 
 
 Our data will be taken from The Global Health Observatory under the World Health Organization [1]. The data set will contain the year, location, gender, and type of alcohol consumed. The data is then analyzed using the ARIMA statistical model and Python package. 
